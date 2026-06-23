@@ -1,6 +1,6 @@
 # Tailscale DERP 规则集
 # 数据源: https://controlplane.tailscale.com/derpmap/default
-# 更新时间 (UTC): 2026-06-22T21:41:50Z
+# 更新时间 (UTC): 2026-06-23T21:31:51Z
 # 由 scripts/generate.py 自动生成，请勿手动编辑
 payload:
   - DOMAIN-SUFFIX,tailscale.com
