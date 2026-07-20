@@ -1,6 +1,6 @@
 # Tailscale DERP 规则集
 # 数据源: https://controlplane.tailscale.com/derpmap/default
-# 更新时间 (UTC): 2026-07-19T21:42:26Z
+# 更新时间 (UTC): 2026-07-20T21:55:24Z
 # 由 scripts/generate.py 自动生成，请勿手动编辑
 payload:
   - IP-CIDR,102.67.165.185/32,no-resolve
