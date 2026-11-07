@@ -1,6 +1,6 @@
 # Tailscale DERP 规则集
 # 数据源: https://controlplane.tailscale.com/derpmap/default
-# 更新时间 (UTC): 2026-11-06T01:17:39Z
+# 更新时间 (UTC): 2026-11-07T00:31:08Z
 # 由 scripts/generate.py 自动生成，请勿手动编辑
 payload:
   - DOMAIN-SUFFIX,tailscale.com
@@ -38,6 +38,8 @@ payload:
   - DOMAIN-SUFFIX,derp1g.tailscale.com
   - DOMAIN-SUFFIX,derp1h.tailscale.com
   - DOMAIN-SUFFIX,derp1i.tailscale.com
+  - DOMAIN-SUFFIX,derp1j.tailscale.com
+  - DOMAIN-SUFFIX,derp1k.tailscale.com
   - DOMAIN-SUFFIX,derp20b.tailscale.com
   - DOMAIN-SUFFIX,derp20c.tailscale.com
   - DOMAIN-SUFFIX,derp20d.tailscale.com
@@ -79,6 +81,8 @@ payload:
   - DOMAIN-SUFFIX,derp4h.tailscale.com
   - DOMAIN-SUFFIX,derp4i.tailscale.com
   - DOMAIN-SUFFIX,derp4j.tailscale.com
+  - DOMAIN-SUFFIX,derp4k.tailscale.com
+  - DOMAIN-SUFFIX,derp4l.tailscale.com
   - DOMAIN-SUFFIX,derp5e.tailscale.com
   - DOMAIN-SUFFIX,derp5f.tailscale.com
   - DOMAIN-SUFFIX,derp5g.tailscale.com
