@@ -1,6 +1,6 @@
 # Tailscale DERP 规则集
 # 数据源: https://controlplane.tailscale.com/derpmap/default
-# 更新时间 (UTC): 2026-11-25T03:53:00Z
+# 更新时间 (UTC): 2026-11-26T03:18:31Z
 # 由 scripts/generate.py 自动生成，请勿手动编辑
 payload:
   - IP-CIDR,102.67.165.185/32,no-resolve
@@ -41,6 +41,7 @@ payload:
   - IP-CIDR,176.58.93.147/32,no-resolve
   - IP-CIDR,176.58.93.154/32,no-resolve
   - IP-CIDR,176.58.93.248/32,no-resolve
+  - IP-CIDR,176.58.93.27/32,no-resolve
   - IP-CIDR,178.156.134.232/32,no-resolve
   - IP-CIDR,178.156.152.106/32,no-resolve
   - IP-CIDR,178.156.152.91/32,no-resolve
@@ -77,9 +78,6 @@ payload:
   - IP-CIDR,208.111.34.178/32,no-resolve
   - IP-CIDR,208.111.40.12/32,no-resolve
   - IP-CIDR,208.111.40.216/32,no-resolve
-  - IP-CIDR,208.72.155.133/32,no-resolve
-  - IP-CIDR,208.83.233.233/32,no-resolve
-  - IP-CIDR,208.83.234.151/32,no-resolve
   - IP-CIDR,209.177.145.118/32,no-resolve
   - IP-CIDR,209.177.145.120/32,no-resolve
   - IP-CIDR,209.177.156.197/32,no-resolve
@@ -98,9 +96,6 @@ payload:
   - IP-CIDR,5.161.218.233/32,no-resolve
   - IP-CIDR,65.109.143.62/32,no-resolve
   - IP-CIDR,95.217.2.165/32,no-resolve
-  - IP-CIDR6,2001:19f0:c000:c564:5400:04ff:fe26:2ba8/128,no-resolve
-  - IP-CIDR6,2001:19f0:c000:c586:5400:04ff:fe26:2ba6/128,no-resolve
-  - IP-CIDR6,2001:19f0:c000:c591:5400:04ff:fe26:2c5f/128,no-resolve
   - IP-CIDR6,2400:8907::2000:2fff:fea7:57f4/128,no-resolve
   - IP-CIDR6,2400:8907::2000:ccff:fe1f:80da/128,no-resolve
   - IP-CIDR6,2400:8907::2000:ceff:fe8d:4f4e/128,no-resolve
@@ -164,6 +159,7 @@ payload:
   - IP-CIDR6,2a00:dd80:3a::b33/128,no-resolve
   - IP-CIDR6,2a00:dd80:3a::dfa/128,no-resolve
   - IP-CIDR6,2a00:dd80:3a::ed/128,no-resolve
+  - IP-CIDR6,2a00:dd80:3c::343/128,no-resolve
   - IP-CIDR6,2a00:dd80:3c::3d5/128,no-resolve
   - IP-CIDR6,2a00:dd80:3c::807/128,no-resolve
   - IP-CIDR6,2a00:dd80:3c::b09/128,no-resolve
